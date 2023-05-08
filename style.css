@@ -11,63 +11,61 @@ body{
 
 }
 
+header{
+    background-image: url(imagem/head);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 210px;
+    opacity: 0.8;
+}
 p{ 
     color: #161616;
     display: swap;
-    width: 980px;
+    width: 1050px;
     margin: auto;
     padding: 40px;
     text-align: justify;
     font-weight: bold;
-}
-nav{
- text-align: right;
- background-image: url(imagem/head);
+    font-weight: 16px;
 }
 
 h1{
-
+    margin: auto;
+    padding: 40px;
     display: block;
     width: 980px;
-    margin: auto;
+    margin: 0 0 35;
     text-align: justify;
 }
 
-.sublinhado{
+a{
     display: inline;
-    background-image: linear-gradient(rgb(245, 248, 245), rgb(108, 108, 110));
+    background-image: linear-gradient(rgb(74, 78, 74), rgb(108, 108, 110));
     background-repeat: no-repeat;
     background-size: 0% 3px;
     background-position: left bottom;
     transition: background-size 500ms ease;
+    text-decoration: none;
        
 }
-.sublinhado:hover{
+a:hover{
     background-size: 100% 3px;
     
 }
-a{
-    text-decoration: none;
-}
+
 
 .titulo{
     text-align: center;
+    color: white;
     
     
 }
-@keyframes float{
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50%{
-        transform: translateY(-10px);
-    }
-}
+
 img{
    display: block;
-   width: 980px;
+   width: 1050px;
    margin: auto;
-   padding: 40px;
+  
    !--animation: float 3s ease-in-out infinite; --!
    
 
