@@ -9,66 +9,91 @@ padding: 0;
 body{
     font-family: 'Commissioner', sans-serif;
 
-}
+} 
 
 header{
+    padding: 20px 70px 20px;
+    text-align: center;
+}
+
+Nav{
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.titulo{
     background-image: url(imagem/head);
     background-position: center;
     background-repeat: no-repeat;
-    padding: 210px;
     opacity: 0.8;
+    filter: brightness(0 50%); 
+    width: 1175px;
+    margin: 0;
+    padding: 40px;
+    height: 510px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-shadow: rgb(83, 82, 82) 2px 3px 2px
+    
 }
+
 p{ 
     color: #161616;
     display: swap;
     width: 1050px;
     margin: auto;
-    padding: 40px;
+    padding: 20px 40px;
     text-align: justify;
     font-weight: bold;
-    font-weight: 16px;
+    font-size: 16px;
 }
 
 h1{
-    margin: auto;
-    padding: 40px;
+    padding: 50px 110PX 0px;
     display: block;
-    width: 980px;
+    width: 965px;
     margin: 0 0 35;
     text-align: justify;
+    font-size: 23px;
+    color: #161616; 
+}
+
+.siteparagrafo {
+    font-size: 17px;
+    
 }
 
 a{
     display: inline;
-    background-image: linear-gradient(rgb(74, 78, 74), rgb(108, 108, 110));
+    background-image: linear-gradient(rgb(125, 128, 125), rgb(199, 199, 207));
     background-repeat: no-repeat;
-    background-size: 0% 3px;
+    background-size: 0% 2px;
     background-position: left bottom;
     transition: background-size 500ms ease;
     text-decoration: none;
-       
+    padding: 10px ;
+    font-size: 23px;
+    color: #161616; 
 }
 a:hover{
-    background-size: 100% 3px;
+    background-size: 100% 2px;
     
 }
-
-
-.titulo{
-    text-align: center;
-    color: white;
-    
-    
-}
-
 img{
-   display: block;
-   width: 1050px;
-   margin: auto;
-  
-   !--animation: float 3s ease-in-out infinite; --!
-   
-
-   
-
+    display: block;
+    width: 1050px;
+    height: 700px;
+    margin: auto;
+    padding: 30px;
+    text-align: justify;
 }
+ol{
+    text-align: center;
+    margin: auto;
+    text-align: left;
+}
+
