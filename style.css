@@ -25,15 +25,11 @@ Nav{
 }
 
 div{
-    
-}
-.titulo{
     background-image: url(imagem/head);
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.9;
     filter: brightness(0 50%); 
-    width:100% ;
     height: 510px;
     text-align: center;
     font-size: 40px;
@@ -56,19 +52,17 @@ main p{
     padding: 20px 0px 0px;
     text-align: justify;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     min-width: 50px;
     max-width: 1050px;
 }
 
 h1{
     padding: 50px 0px 20px;
-    width: 965px;
-    margin: 0 0 35;
     text-align: justify;
-    font-size: 23px;
+    font-size: 20px;
     color: #161616; 
-    min-width: 300px;
+    min-width: 100px;
 }
 
 h2{
@@ -79,7 +73,8 @@ h2{
 }
 
 .siteparagrafo {
-    font-size: 20px;
+    font-size: 18px;
+    transition: none;
     
 }
 
@@ -103,9 +98,6 @@ main img{
    width: 100%;
 
 }
-ol{
-    text-align: center;
-    margin: auto;
-    text-align: left;
-}
+ul{
+display: inline;}
 
