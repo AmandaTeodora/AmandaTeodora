@@ -78,7 +78,7 @@ h2{
     
 }
 
-a{
+nav a{
     display: inline;
     background-image: linear-gradient(rgb(125, 128, 125), rgb(199, 199, 207));
     background-repeat: no-repeat;
@@ -99,5 +99,24 @@ main img{
 
 }
 ul{
-display: inline;}
+    list-style-position: inside;
+    columns: 2;
+    font: 18px arial;
+    padding: 20px;
+}
 
+main a {
+    color: #2c2b2b;
+    text-decoration: underline;
+
+}
+
+
+footer{
+    background: #161616;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
